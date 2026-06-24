@@ -19,8 +19,8 @@ export default function ContactAreaTwo() {
                                 </div>
                                 <div>
                                     <h4 className="title">Office Location:</h4>
-                                    <p>Marks Dan Street 15UIK, Berlin <br className="d-lg-block d-none" />
-                                        FP 256 Germany.</p>
+                                    <p>203 S BOSTON ST RICE TX <br className="d-lg-block d-none" />
+                                        75155.</p>
                                 </div>
                             </div>
                             <div className="footer-contact-link">
@@ -29,8 +29,8 @@ export default function ContactAreaTwo() {
                                 </div>
                                 <div>
                                     <h4 className="title">Contact:</h4>
-                                    <a className="link" href="tel:163254736587">(+163)-2547-36587</a>
-                                    <a className="link" href="mailto:infohelp@example.com">infohelp@example.com</a>
+                                    <a className="link" href="tel:+18322338747">+1 832-233-8747</a>
+                                    <a className="link" href="mailto:Hello@jiggersinjoggers.com">Hello@jiggersinjoggers.com</a>
                                 </div>
                             </div>
                         </div>

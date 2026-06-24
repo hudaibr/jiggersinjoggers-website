@@ -52,9 +52,9 @@ const FooterTwo = () => {
                         <div className="footer-el-widget">
                             <h4 className="title">information</h4>
                             <ul className="list-wrap">
-                                <li><Link href="tel:123">+971 333 222 557</Link></li>
-                                <li><Link href="mailto:info@exemple.com">info@exemple.com</Link></li>
-                                <li>Firestone building, Sharjah Ain <br/> Box 265, Dubai</li>
+                                <li><Link href="tel:+18322338747">+1 832-233-8747</Link></li>
+                                <li><Link href="mailto:Hello@jiggersinjoggers.com">Hello@jiggersinjoggers.com</Link></li>
+                                <li>203 S BOSTON ST RICE TX <br/> 75155</li>
                             </ul>
                         </div>
                     </div>
@@ -78,9 +78,9 @@ const FooterTwo = () => {
                         <div className="footer-el-widget text-start text-md-end">
                             <h4 className="title">head office</h4>
                             <ul className="list-wrap">
-                                <li><Link href="tel:123">+33 423 222 555</Link></li>
-                                <li><Link href="mailto:info@exemple.com">info@exemple.com</Link></li>
-                                <li>New Central Park W7 Street Lan <br/> France</li>
+                                <li><Link href="tel:+18322338747">+1 832-233-8747</Link></li>
+                                <li><Link href="mailto:Hello@jiggersinjoggers.com">Hello@jiggersinjoggers.com</Link></li>
+                                <li>203 S BOSTON ST RICE TX <br/> 75155</li>
                             </ul>
                         </div>
                     </div>

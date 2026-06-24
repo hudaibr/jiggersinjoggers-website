@@ -21,12 +21,12 @@ const ContactArea = () => {
                 <h4 className="title">information</h4>
                 <ul className="list-wrap">
                   <li>
-                    <Link href="tel:123">+971 333 222 557</Link>
+                    <Link href="tel:+18322338747">+1 832-233-8747</Link>
                   </li>
                   <li>
-                    <Link href="mailto:info@exemple.com">info@exemple.com</Link>
+                    <Link href="mailto:Hello@jiggersinjoggers.com">Hello@jiggersinjoggers.com</Link>
                   </li>
-                  <li>New Central Park W7 Street, New York</li>
+                  <li>203 S BOSTON ST RICE TX 75155</li>
                 </ul>
               </div>
             </div>

@@ -62,4 +62,16 @@
     @media #{$xs} {
         padding-top: 50px;
     }
+    & .brand__link {
+        height: 120px;
+        @media #{$xs} {
+            height: 70px;
+        }
+        & img {
+            max-height: 100%;
+            max-width: 100%;
+            width: auto;
+            height: auto;
+        }
+    }
 }

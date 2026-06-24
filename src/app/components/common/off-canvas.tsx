@@ -32,22 +32,22 @@ const OffCanvas = ({isOffCanvasOpen,setIsOffCanvasOpen}:IProps) => {
                   </div>
               </div>
               <div className="offCanvas__content">
-                  <h2 className="title">Best Seller of Month Ideas for <span>NFT Wallet</span></h2>
+                  <h2 className="title">Your Vision, <span>Our Art</span></h2>
                   <div className="offCanvas__contact">
                       <h4 className="small-title">CONTACT US</h4>
                       <ul className="offCanvas__contact-list list-wrap">
-                          <li><Link href="tel:93332225557">+9 333 222 5557</Link></li>
-                          <li><Link href="mailto:info@webmail.com">info@webmail.com</Link></li>
-                          <li>New Central Park W7 Street,New York</li>
+                          <li><Link href="tel:+18322338747">+1 832-233-8747</Link></li>
+                          <li><Link href="mailto:Hello@jiggersinjoggers.com">Hello@jiggersinjoggers.com</Link></li>
+                          <li>203 S BOSTON ST RICE TX 75155</li>
                       </ul>
                   </div>
                   <div className="offCanvas__newsletter">
                       <h4 className="small-title">Subscribe</h4>
                       <form action="#" className="offCanvas__newsletter-form">
-                          <input type="email" placeholder="Get News & Updates"/>
+                          <input type="email" placeholder="Get Studio Updates"/>
                           <button type="submit"><i className="flaticon-send"></i></button>
                       </form>
-                      <p>Subscribe dolor sitamet, consectetur adiping eli. Duis esollici tudin augue.</p>
+                      <p>Get the latest character designs, animations, and studio news delivered to your inbox.</p>
                   </div>
                   <ul className="offCanvas__social list-wrap">
                     {social_data.map((s,i) => (
@@ -56,7 +56,7 @@ const OffCanvas = ({isOffCanvasOpen,setIsOffCanvasOpen}:IProps) => {
                   </ul>
               </div>
               <div className="offCanvas__copyright">
-                  <p>Copyright © {new Date().getFullYear()} - By <span>MYKD</span></p>
+                  <p>Copyright © {new Date().getFullYear()} - All Rights Reserved By <span>Jiggers in Joggers</span></p>
               </div>
           </div>
       </div>

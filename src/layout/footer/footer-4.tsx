@@ -27,7 +27,7 @@ export default function FooterFour() {
                             </div>
                         </div>
                         <div className="footer-newsletter2">
-                            <h4 className="title">MYKD NEWSLETTER</h4>
+                            <h4 className="title">STUDIO UPDATES</h4>
                             <form action="#" className="footer-newsletter-form2">
                                 <input type="email" placeholder="Enter Email Address"/>
                                 <button type="submit">Subscribe</button>
@@ -42,7 +42,7 @@ export default function FooterFour() {
                 <div className="row gy-2 align-items-center">
                     <div className="col-lg-6">
                         <div className="copyright__text">
-                            <p>Copyright © {new Date().getFullYear()} - All Rights Reserved By <span>Mykd</span></p>
+                            <p>Copyright © {new Date().getFullYear()} - All Rights Reserved By <span>Jiggers in Joggers</span></p>
                         </div>
                     </div>
                     <div className="col-lg-6">

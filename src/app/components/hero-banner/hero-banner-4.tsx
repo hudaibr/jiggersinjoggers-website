@@ -15,7 +15,7 @@ export default function HeroBannerFour() {
                         <div className="banner__content slider__content">
                             <span className="sub-title2 wow fadeInUp" data-wow-delay=".1s">World Class Digital Design & Creative Solutions
 </span>
-                            <h2 className="title wow fadeInUp" data-wow-delay=".2s">SHAPING THE FUTURE OF </h2>
+                            <h2 className="title wow fadeInUp" data-wow-delay=".2s">CUSTOM CHARACTERS & ANIMATIONS  </h2>
                             <h2 className="title wow fadeInUp" data-wow-delay=".3s" style={{ color: "#4cd964" }}>INNOVATION & BRANDING</h2> 
                             <div className="banner__btn d-flex wow fadeInUp" data-wow-delay=".6s" style={{ gap: "30px" }}>
                                 <Link href="/contact" className="tg-btn-5">

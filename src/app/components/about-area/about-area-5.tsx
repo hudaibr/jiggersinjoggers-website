@@ -19,14 +19,14 @@ export default function AboutAreaFive() {
                             <div className="text-xl-start text-center">
                                 <div className="section__title mb-30 title-shape-none">
                                     <h6 className="sub-title2">About Our Agency</h6>
-                                    <h3 className="title2">Global Expert team up the next level.</h3>
+                                    <h3 className="title2">From Concept to Character — <br/> Art That Levels Up Your Community</h3>
                                 </div>
                                 <div className="about__content-three">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis elementum sollici tudin augue euismod. Nulla ullamcorper nunc. Morbi pharetra mi eu tellus mollis,  tincidunt massa venenatis. Etiam lacinia ipsumultrices.</p>
+                                    <p>We're a team of character artists and animators who partner with gaming communities to bring their Discord servers to life. From custom emotes that spark conversation to animated banners that set the vibe, every asset is crafted to reflect your community's personality. Whether you're launching a new server or rebranding an established one, we deliver art that hits different.</p>
                                 </div>
                                 <div className="btn-group mt-4">
                                     <Link href="/contact" className="tg-btn-5">
-                                        <span>Learn More</span>
+                                        <span>View Our Work</span>
                                     </Link>
                                 </div>
                             </div>
