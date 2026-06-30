@@ -64,7 +64,7 @@ export default function FooterThree() {
                         <div className="copyright__menu">
                             <ul className="list-wrap d-flex flex-wrap justify-content-center justify-content-lg-end">
                                 <li><Link href="/about">About</Link></li>
-                                <li><Link href="/portfolio">Portfolio</Link></li>
+                                <li><Link href="https://www.artstation.com/funixartstation" target="_blank" rel="noopener noreferrer">Portfolio</Link></li>
                                 <li><Link href="/contact">Contact</Link></li>
                                 <li><Link href="/privacy-policy">Privacy Policy</Link></li>
                             </ul>

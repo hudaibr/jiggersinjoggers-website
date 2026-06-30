@@ -21,7 +21,7 @@ export default function FooterFour() {
                             <div className="footer-menu-link mt-20">
                                 <Link href="/">Home</Link>
                                 <Link href="/about">About</Link>
-                                <Link href="/portfolio">Portfolio</Link>
+                                <Link href="https://www.artstation.com/funixartstation" target="_blank" rel="noopener noreferrer">Portfolio</Link>
                                 <Link href="/contact">Contact</Link>
                             </div>
                         </div>

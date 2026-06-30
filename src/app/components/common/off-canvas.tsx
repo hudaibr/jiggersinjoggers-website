@@ -24,7 +24,7 @@ const OffCanvas = ({isOffCanvasOpen,setIsOffCanvasOpen}:IProps) => {
               <div className="offCanvas__top">
                   <div className="offCanvas__logo logo">
                       <Link href="/">
-                        <Image src={logo} alt="Logo" width={177} height={40} />
+                        <Image src={logo} alt="Logo" style={{height:'auto'}} />
                       </Link>
                   </div>
                   <div className="offCanvas__toggle" onClick={() => handleCloseOffCanvas('/audio/remove.wav')}>

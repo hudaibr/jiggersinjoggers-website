@@ -25,7 +25,7 @@ export default function HeaderNavMenus() {
                     </li>
                 ) : (
                     <li key={menu.id} className={pathname === menu.link ? 'active' : ''}>
-                        <Link href={menu.link}>{menu.title}</Link>
+                        <Link href={menu.link} target={menu.link.startsWith('http') ? '_blank' : undefined} rel={menu.link.startsWith('http') ? 'noopener noreferrer' : undefined}>{menu.title}</Link>
                     </li>
                 )
             )}

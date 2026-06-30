@@ -17,8 +17,8 @@ const Footer = () => {
             <div className="col-xl-4 col-lg-5 col-md-7">
               <div className="footer-widget">
                 <div className="footer-logo logo">
-                  <Link href="/contact">
-                    <Image src={logo} alt="Logo" width={177} height={40} />
+                  <Link href="/">
+                    <Image src={logo} alt="Logo" style={{height:'auto'}}/>
                   </Link>
                 </div>
                 <div className="footer-text">
@@ -39,7 +39,7 @@ const Footer = () => {
                 <ul className="list-wrap menu">
                   <li><Link href="/">Home</Link></li>
                   <li><Link href="/about">About</Link></li>
-                  <li><Link href="/portfolio">Portfolio</Link></li>
+                  <li><Link href="https://www.artstation.com/funixartstation" target="_blank" rel="noopener noreferrer">Portfolio</Link></li>
                   <li><Link href="/contact">Contact</Link></li>
                   <li><Link href="/privacy-policy">Privacy Policy</Link></li>
                 </ul>
@@ -49,7 +49,7 @@ const Footer = () => {
               <div className="footer-widget">
                 <h4 className="fw-title">Newsletter</h4>
                 <div className="footer-newsletter">
-                  <p>Subscribe our newsletter to get our latest update & newsconsectetur</p>
+                  <p>Get the latest character designs, animations, and studio news delivered to your inbox.</p>
                   <form action="#" className="footer-newsletter-form">
                     <input type="email" placeholder="Your email address" />
                     <button type="submit"><i className="flaticon-paper-plane"></i></button>

@@ -1,5 +1,4 @@
 'use client';
-import Link from "next/link";
 import Image from "next/image";
 import { MouseParallaxChild, MouseParallaxContainer } from "react-parallax-mouse";
 import ab_img from '@/assets/img/others/about_img4-1.jpg';
@@ -25,9 +24,9 @@ export default function AboutAreaFive() {
                                     <p>We're a team of character artists and animators who partner with gaming communities to bring their Discord servers to life. From custom emotes that spark conversation to animated banners that set the vibe, every asset is crafted to reflect your community's personality. Whether you're launching a new server or rebranding an established one, we deliver art that hits different.</p>
                                 </div>
                                 <div className="btn-group mt-4">
-                                    <Link href="/contact" className="tg-btn-5">
+                                    <a href="https://www.artstation.com/funixartstation" target="_blank" rel="noopener noreferrer" className="tg-btn-5">
                                         <span>View Our Work</span>
-                                    </Link>
+                                    </a>
                                 </div>
                             </div>
                         </div>

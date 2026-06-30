@@ -23,7 +23,7 @@ const menu_data:IMenuDataType[] = [
   {
     id:3,
     title:'Portfolio',
-    link:'/portfolio',
+    link:'https://www.artstation.com/funixartstation',
   },
   {
     id:4,
