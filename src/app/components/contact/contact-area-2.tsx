@@ -9,8 +9,8 @@ export default function ContactAreaTwo() {
                 <div className="row gy-5">
                     <div className="col-lg-5">
                         <div className="section__title mb-50 title-shape-none">
-                            <h6 className="sub-title2">Professional Esports Team</h6>
-                            <h3 className="title2">Contact Us & Meet Our Team !</h3>
+                            <h6 className="sub-title2">Custom Character Art</h6>
+                            <h3 className="title2">Create Your Character !</h3>
                         </div>
                         <div className="contact-list-wrap">
                             <div className="footer-contact-link">

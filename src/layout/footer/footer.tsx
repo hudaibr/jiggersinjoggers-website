@@ -22,7 +22,7 @@ const Footer = () => {
                   </Link>
                 </div>
                 <div className="footer-text">
-                  <p className="desc">Lorem ipsum dolor sitamet consectur adipiscing Duis esollici tudin augue euismod. Nulla ullam dolor sitamet consectetur</p>
+                  <p className="desc">We craft custom characters, emotes, and animations that bring your Discord community to life. From concept to delivery, every asset is built to make your server stand out.</p>
                   <p className="social-title">Active <span>With Us <i className="fas fa-angle-double-right"></i></span></p>
                   <div className="footer-social">
                     <Link href="#"><Image src={icon_1} alt="iocn" width={30} height={30} /></Link>
@@ -35,27 +35,13 @@ const Footer = () => {
             </div>
             <div className="col-xl-2 col-lg-3 col-md-5 col-sm-6">
               <div className="footer-widget widget_nav_menu">
-                <h4 className="fw-title">quick link</h4>
+                <h4 className="fw-title">Menu</h4>
                 <ul className="list-wrap menu">
-                  <li><Link href="#">Gaming</Link></li>
-                  <li><Link href="#">Product</Link></li>
-                  <li><Link href="#">All NFTs</Link></li>
-                  <li><Link href="#">Social Network</Link></li>
-                  <li><Link href="#">Domain Names</Link></li>
-                  <li><Link href="#">Collectibles</Link></li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-xl-2 col-lg-3 col-md-5 col-sm-6">
-              <div className="footer-widget widget_nav_menu">
-                <h4 className="fw-title">Supports</h4>
-                <ul className="list-wrap menu">
-                  <li><Link href="#">Setting & Privacy</Link></li>
-                  <li><Link href="#">Help & Support</Link></li>
-                  <li><Link href="#">Live Auctions</Link></li>
-                  <li><Link href="#">Item Details</Link></li>
-                  <li><Link href="#">24/7 Supports</Link></li>
-                  <li><Link href="#">Our News</Link></li>
+                  <li><Link href="/">Home</Link></li>
+                  <li><Link href="/about">About</Link></li>
+                  <li><Link href="/portfolio">Portfolio</Link></li>
+                  <li><Link href="/contact">Contact</Link></li>
+                  <li><Link href="/privacy-policy">Privacy Policy</Link></li>
                 </ul>
               </div>
             </div>
@@ -79,7 +65,7 @@ const Footer = () => {
           <div className="row align-items-center">
             <div className="col-md-7">
               <div className="copyright__text">
-                <p>Copyright © {new Date().getFullYear()} - All Rights Reserved By <span>Mykd</span></p>
+                <p>Copyright © {new Date().getFullYear()} - All Rights Reserved By <span>Jiggers in Joggers</span></p>
               </div>
             </div>
             <div className="col-md-5">

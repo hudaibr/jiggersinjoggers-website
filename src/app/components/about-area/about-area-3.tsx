@@ -16,9 +16,9 @@ const AboutAreaThree = () => {
                         <div className="about__title-wrap">
                             <h2 className="title">
                                 <i>WE ARE</i>
-                                <span>developer</span>
-                                <i>ern nft</i>
-                                <i>gam<b>ing</b></i>
+                                <span>character</span>
+                                <i>art &</i>
+                                <i>ani<b>mation</b></i>
                             </h2>
                             <div className="about__content-circle">
                                 <Image src={circle_img} alt="img" />
@@ -35,12 +35,12 @@ const AboutAreaThree = () => {
                             </div>
                         </div>
                         <div className="about__three-paragraph">
-                            <TextAnimation style_2={true} title='Lorem ipsum dolor sit amet, consteur adipiscing Duis elementum sollicitudin is yaugue euismods Nulla ullamcorper. Morbi pharetra tellus miolslis tincidunt massa venenatis. Lorem Ipsum is simply dummyd the printing and typesetting industry. Lorem Ipsum has been the industries standard dummy text ever since the 1500s when an unknown printer took a galley.' />
+                            <TextAnimation style_2={true} title='We craft custom characters, emotes, and animations that bring gaming communities to life. Every design is built to reflect your community personality — from Discord servers to Twitch streams, we make your brand unforgettable.' />
                         </div>
                     </div>
                 </div>
             </div>
-            <h2 className="big-title">online</h2>
+            <h2 className="big-title">characters</h2>
         </section>
     );
 };

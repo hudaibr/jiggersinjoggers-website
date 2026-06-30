@@ -66,7 +66,7 @@ const Header = ({style_2=false}:{style_2?:boolean}) => {
                         <Link href="/contact" className={`${style_2?'tg-btn-3 tg-svg':'tg-border-btn'}`}>
                           <BtnBg/>
                           {style_2 && <SvgIconCom icon={shape} id="svg-2" />}
-                          <i className="flaticon-edit"></i> ~sing in
+                          <i className="flaticon-edit"></i> Get A Quote
                         </Link>
                       </li>
                       <li className="side-toggle-icon" onClick={()=> handleOpenOffCanvas('/audio/click.wav')}>

@@ -18,26 +18,26 @@ const service_items:{
   {
     id:1,
     icon:'flaticon-diamond',
-    title:'Year Experience',
-    desc:'Lorem ipsum dolor sitamet const adipiscng Duis eletum sollicitudin is yaugue euismods'
+    title:'Custom Characters',
+    desc:'Unique character designs tailored to your community style and vision.'
   },
   {
     id:2,
     icon:'flaticon-user-profile',
     title:'Expert Teams',
-    desc:'Lorem ipsum dolor sitamet const adipiscng Duis eletum sollicitudin is yaugue euismods'
+    desc:'Skilled artists and animators dedicated to delivering premium quality art.'
   },
   {
     id:3,
     icon:'flaticon-ethereum',
-    title:'Best NFT Game',
-    desc:'Lorem ipsum dolor sitamet const adipiscng Duis eletum sollicitudin is yaugue euismods'
+    title:'Discord Art',
+    desc:'Emotes, banners, logos, and overlays built for your server branding.'
   },
   {
     id:4,
     icon:'flaticon-settings-1',
-    title:'Worldwide Client',
-    desc:'Lorem ipsum dolor sitamet const adipiscng Duis eletum sollicitudin is yaugue euismods'
+    title:'Fast Delivery',
+    desc:'Quick turnaround without compromising on creativity or detail.'
   }
 ];
 

@@ -7,26 +7,26 @@ const team_data = [
   {
     id:1,
     img:img_1,
-    title:'killer master',
-    subtitle:'Blockchain Expert'
+    title:'Marcus Cole',
+    subtitle:'Lead Character Artist'
   },
   {
     id:2,
     img:img_2,
-    title:'tanu mark',
-    subtitle:'Developer'
+    title:'Tanya Marks',
+    subtitle:'Animation Director'
   },
   {
     id:3,
     img:img_3,
-    title:'Thompson Scot',
+    title:'Scott Thompson',
     subtitle:'Art Director'
   },
   {
     id:4,
     img:img_4,
-    title:'Shakh Danial',
-    subtitle:'Crypto Advisor'
+    title:'Daniella Shah',
+    subtitle:'Community Design Lead'
   },
 ]
 

@@ -21,9 +21,8 @@ export default function FooterFour() {
                             <div className="footer-menu-link mt-20">
                                 <Link href="/">Home</Link>
                                 <Link href="/about">About</Link>
-                                <Link href="/shop">Shop</Link>
-                                <Link href="/tournament">Tournament</Link>
-                                <Link href="/blog">Blog</Link>
+                                <Link href="/portfolio">Portfolio</Link>
+                                <Link href="/contact">Contact</Link>
                             </div>
                         </div>
                         <div className="footer-newsletter2">
@@ -48,9 +47,9 @@ export default function FooterFour() {
                     <div className="col-lg-6">
                         <div className="copyright__menu">
                             <ul className="list-wrap d-flex flex-wrap justify-content-center justify-content-lg-end">
-                                <li><Link href="/contact">Contact Us</Link></li>
-                                <li><Link href="/contact">Join our team</Link></li>
-                                <li><Link href="/contact">Privacy Policy</Link></li>
+                                <li><Link href="/terms">Terms &amp; Conditions</Link></li>
+                                <li><Link href="/refund-policy">Refund Policy</Link></li>
+                                <li><Link href="/privacy-policy">Privacy Policy</Link></li>
                             </ul>
                         </div>
                     </div>

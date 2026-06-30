@@ -121,7 +121,7 @@ export default function CheckoutArea() {
                         <li>Total <span>${total.toFixed(2)}</span></li>
                      </ul>
                      <p>Sorry, it seems that there are no available payment methods for your state. Please contact us if you require assistance or wish to make alternate arrangements.</p>
-                     <p>Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our <a href="#">privacy policy.</a></p>
+                     <p>Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our <a href="/privacy-policy">privacy policy.</a></p>
                      <button onClick={notify} className="btn">Place order</button>
                   </div>
                </div>

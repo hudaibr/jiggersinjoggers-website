@@ -12,10 +12,9 @@ const ContactArea = () => {
               <h2 className="overlay-title">
                 <span>join us</span>
               </h2>
-              <h2 className="title">CONTACT US AND FIND YOUR mykd</h2>
+              <h2 className="title">CONTACT US AND FIND YOUR CHARACTER</h2>
               <p>
-                Axcepteur sint occaecat atat non proident, sunt culpa officia
-                deserunt mollit anim id est labor umLor emdolor
+                Whether you need a custom character, emotes, or stream overlays, we're here to bring your vision to life. Reach out and let's create something epic together.
               </p>
               <div className="footer-el-widget">
                 <h4 className="title">information</h4>

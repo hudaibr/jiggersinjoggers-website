@@ -2,7 +2,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { MouseParallaxChild, MouseParallaxContainer } from "react-parallax-mouse";
-import ab_img from '@/assets/img/others/about_img4-1.png';
+import ab_img from '@/assets/img/others/about_img4-1.jpg';
 
 export default function AboutAreaFive() {
     return (

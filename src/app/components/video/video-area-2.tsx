@@ -3,9 +3,6 @@ import Link from "next/link";
 import Image from "next/image";
 import React, { useState } from "react";
 
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Scrollbar } from "swiper/modules";
-
 // images
 import card_shape_1 from '@/assets/img/gallery/video3-card-shape1.png';
 import card_shape_2 from '@/assets/img/gallery/video3-card-shape2.png';
@@ -16,70 +13,52 @@ import card_title_shape_2 from '@/assets/img/gallery/video3-card-title-shape2.pn
 import bg_img from '@/assets/img/bg/video_bg3.png';
 
 import video_1 from '@/assets/img/gallery/video3-1.jpg';
-import video_2 from '@/assets/img/gallery/video3-2.png';
+import emote_img from '@/assets/img/gallery/emote-tab.png';
 import video_3 from '@/assets/img/gallery/video3-3.png';
 import video_4 from '@/assets/img/gallery/video3-4.jpg';
 import video_5 from '@/assets/img/gallery/video3-5.jpg';
+import overlay_img from '@/assets/img/gallery/overlay-tab.jpg';
+import illustration_img from '@/assets/img/gallery/illustration-tab.jpg';
+import logo_img from '@/assets/img/gallery/logo-tab.jpg';
 
 import char_1 from '@/assets/img/gallery/character-slide-1.webp';
-import char_2 from '@/assets/img/gallery/character-slide-2.webp';
-import char_3 from '@/assets/img/gallery/character-slide-3.webp';
-import char_4 from '@/assets/img/gallery/character-slide-4.webp';
-import char_5 from '@/assets/img/gallery/character-slide-5.webp';
-import char_6 from '@/assets/img/gallery/character-slide-6.webp';
-
-const char_images = [char_1, char_2, char_3, char_4, char_5, char_6];
 
 // nav data
 const navData = [
   { id: "about01", title: "CHARACTERS" },
   { id: "about02", title: "EMOTES" },
-  { id: "about03", title: "ANIMATIONS" },
-  { id: "about04", title: "AVATAR" },
-  { id: "about05", title: "BOT VISUALS" },
+  { id: "about03", title: "LOGO" },
+  { id: "about04", title: "ILLUSTRATION" },
+  { id: "about05", title: "OVERLAY" },
 ];
 // tab content data
 const tabContentData = [
   {
     id: "about01",
-    images: char_images,
+    images: [char_1],
     title: "CHARACTERS",
   },
   {
     id: "about02",
-    images: [video_2],
+    images: [emote_img],
     title: "Daniel Barna Klark",
   },
   {
     id: "about03",
-    images: [video_3],
-    title: "Daniel Barna Klark",
+    images: [logo_img],
+    title: "LOGO",
   },
   {
     id: "about04",
-    images: [video_4],
-    title: "Daniel Barna Klark",
+    images: [illustration_img],
+    title: "ILLUSTRATION",
   },
   {
     id: "about05",
-    images: [video_5],
-    title: "Daniel Barna Klark",
+    images: [overlay_img],
+    title: "OVERLAY",
   },
 ];
-
-const slider_setting = {
-  slidesPerView: 3,
-  spaceBetween: 15,
-  navigation: {
-    nextEl: ".char-button-next",
-    prevEl: ".char-button-prev",
-  },
-  scrollbar: {
-    el: ".char-scrollbar",
-    draggable: true,
-    dragSize: 24,
-  },
-};
 
 export default function VideoAreaTwo() {
   const [activeTab, setActiveTab] = useState(navData[0].id);
@@ -126,40 +105,23 @@ export default function VideoAreaTwo() {
               aria-labelledby={`${content.id}-tab`}
             >
               {content.id === "about01" ? (
-                <>
-                  <Swiper
-                    {...slider_setting}
-                    modules={[Navigation, Scrollbar]}
-                    className="swiper-container"
-                  >
-                    {content.images.map((img, i) => (
-                      <SwiperSlide key={i}>
-                        <div className="video__card">
-                          <div className="video-card-shape video-card-shape1">
-                            <Image src={card_shape_1} alt="shape1" />
-                          </div>
-                          <div className="video-card-shape video-card-shape2">
-                            <Image src={card_shape_2} alt="shape2" />
-                          </div>
-                          <div className="video-card-shape video-card-shape3">
-                            <Image src={card_shape_3} alt="shape3" />
-                          </div>
-                          <div className="video-card-shape video-card-shape4">
-                            <Image src={card_shape_4} alt="shape4" />
-                          </div>
-                          <div className="video-card-img">
-                            <Image src={img} alt={`Character ${i + 1}`} width={331} height={436} style={{ width: 'auto', height: '436px', objectFit: 'contain' }} />
-                          </div>
-                        </div>
-                      </SwiperSlide>
-                    ))}
-                  </Swiper>
-                  <div className="char-button-prev">
-                    <i className="flaticon-right-arrow"></i>
-                    <i className="flaticon-right-arrow"></i>
+                <div className="video__card">
+                  <div className="video-card-shape video-card-shape1">
+                    <Image src={card_shape_1} alt="shape1" />
                   </div>
-                  <div className="char-scrollbar"></div>
-                </>
+                  <div className="video-card-shape video-card-shape2">
+                    <Image src={card_shape_2} alt="shape2" />
+                  </div>
+                  <div className="video-card-shape video-card-shape3">
+                    <Image src={card_shape_3} alt="shape3" />
+                  </div>
+                  <div className="video-card-shape video-card-shape4">
+                    <Image src={card_shape_4} alt="shape4" />
+                  </div>
+                  <div className="video-card-img">
+                    <Image src={content.images[0]} alt="Character" width={331} height={436} style={{ width: 'auto', height: '436px', objectFit: 'contain', display: 'block', margin: '0 auto' }} />
+                  </div>
+                </div>
               ) : (
                 <div className="video__card">
                   <div className="video-card-shape video-card-shape1">
@@ -177,20 +139,6 @@ export default function VideoAreaTwo() {
                   <div className="video-card-img">
                     <Image src={content.images[0]} alt={content.title} width={1246} height={586} style={{ height: 'auto' }} />
                   </div>
-                  <Link href="/service-details" className="video-card-title">
-                    <span className="icon">
-                      <i className="fas fa-link"></i>
-                    </span>
-                    <span className="video-card-title-shape video-card-title-shape2">
-                      <Image src={card_title_shape_2} alt="title-shape2" />
-                    </span>
-                    <span className="title">
-                      <span className="video-card-title-shape video-card-title-shape1">
-                        <Image src={card_title_shape_1} alt="title-shape1" />
-                      </span>
-                      {content.title}
-                    </span>
-                  </Link>
                 </div>
               )}
             </div>

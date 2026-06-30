@@ -57,15 +57,16 @@ export default function FooterThree() {
                 <div className="row gy-2 align-items-center">
                     <div className="col-lg-6">
                         <div className="copyright__text">
-                            <p>Copyright © {new Date().getFullYear()} - All Rights Reserved By <span>Mykd</span></p>
+                            <p>Copyright © {new Date().getFullYear()} - All Rights Reserved By <span>Jiggers in Joggers</span></p>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <div className="copyright__menu">
                             <ul className="list-wrap d-flex flex-wrap justify-content-center justify-content-lg-end">
-                                <li><Link href="/contact">Contact Us</Link></li>
-                                <li><Link href="/contact">Join our team</Link></li>
-                                <li><Link href="/contact">Privacy Policy</Link></li>
+                                <li><Link href="/about">About</Link></li>
+                                <li><Link href="/portfolio">Portfolio</Link></li>
+                                <li><Link href="/contact">Contact</Link></li>
+                                <li><Link href="/privacy-policy">Privacy Policy</Link></li>
                             </ul>
                         </div>
                     </div>
