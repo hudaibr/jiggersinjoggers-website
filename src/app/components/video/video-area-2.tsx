@@ -118,7 +118,7 @@ export default function VideoAreaTwo() {
                   <div className="video-card-shape video-card-shape4">
                     <Image src={card_shape_4} alt="shape4" />
                   </div>
-                  <div className="video-card-img">
+                  <div className="video-card-img" style={{ backgroundColor: '#000' }}>
                     <Image src={content.images[0]} alt="Character" width={331} height={436} style={{ width: 'auto', height: '436px', objectFit: 'contain', display: 'block', margin: '0 auto' }} />
                   </div>
                 </div>
