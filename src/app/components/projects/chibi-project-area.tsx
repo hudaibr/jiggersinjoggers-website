@@ -26,8 +26,8 @@ const slider_setting = {
     "0": { slidesPerView: 1.5, centeredSlides: true, centeredSlidesBounds: true },
   },
   navigation: {
-    nextEl: ".chibi-button-next",
-    prevEl: ".chibi-button-prev",
+    nextEl: ".slider-button-next",
+    prevEl: ".slider-button-prev",
   },
   scrollbar: {
     el: ".chibi-scrollbar",
@@ -66,7 +66,7 @@ export default function ChibiProjectArea() {
               ))}
             </Swiper>
           </PhotoProvider>
-          <div className="chibi-button-prev" style={{ display: 'flex', gap: '5px', cursor: 'pointer' }}>
+          <div className="slider-button-prev">
             <i className="flaticon-right-arrow"></i>
             <i className="flaticon-right-arrow"></i>
           </div>
