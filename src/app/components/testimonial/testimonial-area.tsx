@@ -35,7 +35,7 @@ const testimonialData = [
         designation: "DISCORD COMMUNITY MANAGER",
     },
     {
-        id: 3,
+        id: 2,
         thumb: samantha_thumb,
         content: `“Our stream branding finally feels unique. The overlays, alerts, and illustrations all have a consistent style that our viewers instantly recognized.”`,
         name: "Samantha K.",

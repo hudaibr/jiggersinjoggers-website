@@ -4,11 +4,18 @@ import HeaderThree from "@/layout/header/header-three";
 import HeroBannerFour from "@/app/components/hero-banner/hero-banner-4";
 import VideoAreaTwo from "@/app/components/video/video-area-2";
 import ProjectArea from "@/app/components/projects/project-area";
+import ProcessGallery from "@/app/components/process/process-gallery";
+import ChibiProjectArea from "@/app/components/projects/chibi-project-area";
+import AnimeGallery from "@/app/components/gallery/anime-gallery";
+import GalleryArea from "@/app/components/gallery/gallery-area";
 import BrandArea from "@/app/components/brand/brand-area";
 import AboutAreaFive from "@/app/components/about-area/about-area-5";
 import StreamersArea from "@/app/components/streamers/streamers-area";
 import ContactAreaTwo from "@/app/components/contact/contact-area-2";
 import TestimonialArea from "@/app/components/testimonial/testimonial-area";
+import SocialArea from "@/app/components/social/social-area";
+import CtaArea from "@/app/components/cta/cta-area";
+import HowItWorks from "@/app/components/process/how-it-works";
 import FooterFour from "@/layout/footer/footer-4";
 
 import bg_img from '@/assets/img/bg/area_bg03.png';
@@ -47,16 +54,38 @@ export default function HomeFourPage() {
                     <AboutAreaFive/>
                     {/* about area end */}
 
-                    {/* streamers area start */}
-                    <StreamersArea/>
+                    {/* streamers area start — HIDDEN */}
+                    {/* <StreamersArea/> */}
                     {/* streamers area end */}
 
+                    {/* process gallery start */}
+                    <ProcessGallery/>
+                    {/* process gallery end */}
+
+                    {/* how it works start */}
+                    <HowItWorks/>
+                    {/* how it works end */}
+
+                    {/* cta area start */}
+                    <CtaArea/>
+                    {/* cta area end */}
+
+                    {/* chibi project area start */}
+                    <ChibiProjectArea/>
+                    {/* chibi project area end */}
+
+                    {/* anime gallery start */}
+                    <AnimeGallery/>
+                    {/* anime gallery end */}
+
                     {/* project area start */}
-                    <ProjectArea/>
-                    {/* project area end */}
 
                 </div>
                 {/* area background end*/}
+
+                {/* gallery area start */}
+                {/* <GalleryArea/> */}
+                {/* gallery area end */}
 
                 {/* contact area start */}
                 <ContactAreaTwo/>
@@ -65,6 +94,10 @@ export default function HomeFourPage() {
                 {/* testimonial area start */}
                 <TestimonialArea/>
                 {/* testimonial area end */}
+
+                {/* social area start */}
+                <SocialArea/>
+                {/* social area end */}
 
             </main>
 

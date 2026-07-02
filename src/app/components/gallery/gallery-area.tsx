@@ -37,8 +37,9 @@ export const gallery_slider_setting = {
   },
 };
 
-const GalleryArea = () => {
+const GalleryArea = ({ data, uniform }: { data?: typeof gallery_data; uniform?: boolean }) => {
   const { handleMouseEnter, handleMouseLeave } = useContext(AppContext);
+  const items = data || gallery_data;
   return (
     <>
       <section className="gallery__area fix section-pb-130">
@@ -55,7 +56,7 @@ const GalleryArea = () => {
                     observer={true}
                     observeParents={true}
                   >
-                    {gallery_data.map((item, i) => (
+                    {items.map((item, i) => (
                       <SwiperSlide key={item.id}>
                         <div className="gallery__item">
                           <div className="gallery__thumb">
@@ -68,7 +69,7 @@ const GalleryArea = () => {
                                 onMouseEnter={handleMouseEnter}
                                 onMouseLeave={handleMouseLeave}
                               >
-                                <Image src={item.img} alt="img" style={{ width: '100%', height: 'auto' }} />
+                                <Image src={item.img} alt="img" style={uniform ? { width: '100%', height: 'auto', maxHeight: '500px', objectFit: 'contain' } : { width: '100%', height: 'auto' }} />
                               </a>
                             </PhotoView>
                           </div>

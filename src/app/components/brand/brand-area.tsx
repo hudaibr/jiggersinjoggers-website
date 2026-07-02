@@ -81,7 +81,7 @@ const BrandArea = ({top_cls='brand-area',hideTitle=false }: IProps) => {
 						<div key={i} className="col">
 							<div className="brand__item" onMouseEnter={() => setHoveredIndex(i)} onMouseLeave={() => setHoveredIndex(null)} style={{ opacity: hoveredIndex === null || hoveredIndex === i ? 1 : 0.3, transition: 'opacity 0.3s' }}>
 								<Link href="#" className="brand__link">
-									<Image src={b} alt="brand" style={{ width: 'auto', height: 'auto', objectFit: "contain" }} />
+									<Image src={b} alt="brand" style={{ width: 'auto', height: 'auto', objectFit: "contain", transform: 'scale(1.3)' }} />
 								</Link>
 							</div>
 						</div>

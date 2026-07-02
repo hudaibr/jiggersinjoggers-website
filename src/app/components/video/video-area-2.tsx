@@ -2,6 +2,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import React, { useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
 
 // images
 import card_shape_1 from '@/assets/img/gallery/video3-card-shape1.png';
@@ -18,10 +20,18 @@ import video_3 from '@/assets/img/gallery/video3-3.png';
 import video_4 from '@/assets/img/gallery/video3-4.jpg';
 import video_5 from '@/assets/img/gallery/video3-5.jpg';
 import overlay_img from '@/assets/img/gallery/overlay-tab.jpg';
+import overlay_1 from '@/assets/img/gallery/overlay (1).webp';
+import overlay_2 from '@/assets/img/gallery/overlay (2).webp';
+import overlay_3 from '@/assets/img/gallery/overlay (3).webp';
+import overlay_4 from '@/assets/img/gallery/overlay (4).webp';
+import overlay_5 from '@/assets/img/gallery/overlay (5).webp';
 import illustration_img from '@/assets/img/gallery/illustration-tab.jpg';
 import logo_img from '@/assets/img/gallery/logo-tab.jpg';
 
-import char_1 from '@/assets/img/gallery/character-slide-1.webp';
+import char_1 from '@/assets/img/gallery/character-1.jpg';
+import char_2 from '@/assets/img/gallery/character-2.jpg';
+import char_3 from '@/assets/img/gallery/character-3.jpg';
+import char_4 from '@/assets/img/gallery/character-4.jpg';
 
 // nav data
 const navData = [
@@ -35,7 +45,7 @@ const navData = [
 const tabContentData = [
   {
     id: "about01",
-    images: [char_1],
+    images: [char_1, char_2, char_3, char_4],
     title: "CHARACTERS",
   },
   {
@@ -55,7 +65,7 @@ const tabContentData = [
   },
   {
     id: "about05",
-    images: [overlay_img],
+    images: [overlay_1, overlay_2, overlay_3, overlay_4, overlay_5],
     title: "OVERLAY",
   },
 ];
@@ -119,7 +129,39 @@ export default function VideoAreaTwo() {
                     <Image src={card_shape_4} alt="shape4" />
                   </div>
                   <div className="video-card-img" style={{ backgroundColor: '#000' }}>
-                    <Image src={content.images[0]} alt="Character" width={331} height={436} style={{ width: 'auto', height: '436px', objectFit: 'contain', display: 'block', margin: '0 auto' }} />
+                    <Swiper loop autoplay={{ delay: 3000, disableOnInteraction: false }} modules={[Autoplay]} className="swiper-container">
+                      {content.images.map((img, i) => (
+                        <SwiperSlide key={i}>
+                          <div style={{ width: '100%', height: '436px', position: 'relative' }}>
+                            <Image src={img} alt={content.title} quality={100} fill style={{ objectFit: 'contain' }} />
+                          </div>
+                        </SwiperSlide>
+                      ))}
+                    </Swiper>
+                  </div>
+                </div>
+              ) : content.id === "about05" ? (
+                <div className="video__card">
+                  <div className="video-card-shape video-card-shape1">
+                    <Image src={card_shape_1} alt="shape1" />
+                  </div>
+                  <div className="video-card-shape video-card-shape2">
+                    <Image src={card_shape_2} alt="shape2" />
+                  </div>
+                  <div className="video-card-shape video-card-shape3">
+                    <Image src={card_shape_3} alt="shape3" />
+                  </div>
+                  <div className="video-card-shape video-card-shape4">
+                    <Image src={card_shape_4} alt="shape4" />
+                  </div>
+                  <div className="video-card-img">
+                    <Swiper loop autoplay={{ delay: 3000, disableOnInteraction: false }} modules={[Autoplay]} className="swiper-container">
+                      {content.images.map((img, i) => (
+                        <SwiperSlide key={i}>
+                          <Image src={img} alt={content.title} quality={100} style={{ width: '100%', height: 'auto' }} />
+                        </SwiperSlide>
+                      ))}
+                    </Swiper>
                   </div>
                 </div>
               ) : (

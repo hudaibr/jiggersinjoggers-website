@@ -1,7 +1,5 @@
 'use client';
-import Image from "next/image";
 import { MouseParallaxChild, MouseParallaxContainer } from "react-parallax-mouse";
-import ab_img from '@/assets/img/others/about_img4-1.jpg';
 
 export default function AboutAreaFive() {
     return (
@@ -11,7 +9,7 @@ export default function AboutAreaFive() {
                     <div className="row gy-5 flex-row-reverse justify-content-center align-items-center">
                         <div className="col-xl-6">
                             <MouseParallaxChild factorX={0.03} factorY={0.03} className="about__funFact-images4">
-                                <Image className="main-img1" data-magnetic src={ab_img} alt="img" />
+                                <video className="main-img1" src="/others/about_video.mp4" autoPlay loop muted playsInline style={{ width: '100%', height: 'auto' }} />
                             </MouseParallaxChild>
                         </div>
                         <div className="col-xl-6">
